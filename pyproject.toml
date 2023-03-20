@@ -10,7 +10,5 @@ exclude = '''
 )/
 '''
 
-[project]
-dependencies = [
-  'torch'
-]
+[build-system]
+requires = ["torch"]
