@@ -52,6 +52,7 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
     python_requires=">=3.6.0",
+    install_requires=["torch"],
     license="Apache licensed, as found in the LICENSE file",
 )
 
